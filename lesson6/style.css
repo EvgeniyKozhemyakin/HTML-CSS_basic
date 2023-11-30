@@ -3,16 +3,20 @@
   margin: 0;
   text-decoration: none;
 }
-.top {
-  margin-left: 375px;
 
+.center {
+  margin: 0 auto;
+  padding-left: calc(50% - 567px);
+  padding-right: calc(50% - 567px);
 }
 .logo_img {
   padding-top: 40px;
 }
 .logo_text {
+  display: flex;
   margin-left: 14px;
   padding-top: 45px;
+  align-items: center;
   color: #000;
   font-family: Gilroy-Bold;
   font-size: 24px;
@@ -23,19 +27,23 @@
 .header_nav {
   padding-top: 51px;
   margin-left: 500px;
-  /* display: flex;
-  justify-content: space-around; */
-  color: #f25822;
-  font-family: Gilroy-SemiBold;
+}
+
+.header_link {
+  color: #000;
+  font-family: Gilroy-Medium;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  margin-right: 21px;
 }
 .top_content {
   margin-top: 164px;
   display: flex;
-  margin-right: 439px;
+}
+.top_img {
+  padding-left: 41px;
 }
 .title {
   color: #000;
@@ -57,6 +65,7 @@
 .top_buttons {
   margin-top: 37px;
 }
+
 .button_left {
   color: #fff;
   font-family: Gilroy-Bold;
@@ -64,6 +73,12 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  border-radius: 50px;
+  background: #f25822;
+  box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.2);
+  width: 140px;
+  height: 50px;
+  flex-shrink: 0;
 }
 .button_rights {
   margin-left: 72px;
@@ -78,10 +93,15 @@
 .top_logos {
   padding-bottom: 96px;
   margin-top: 97px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 .header_left_logo {
   display: flex;
+  align-items: center;
 }
 .header {
   display: flex;
+  align-items: center;
 }
