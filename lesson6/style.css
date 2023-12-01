@@ -81,6 +81,7 @@
   border-radius: 50px;
   background: #f25822;
   box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.2);
+  border: 0;
 }
 .button_left_text {
   color: #fff;
