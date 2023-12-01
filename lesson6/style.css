@@ -6,8 +6,8 @@
 
 .center {
   margin: 0 auto;
-  padding-left: calc(50% - 567px);
-  padding-right: calc(50% - 567px);
+  padding-left: calc(50% - 585px);
+  padding-right: calc(50% - 585px);
 }
 .logo_img {
   padding-top: 40px;
@@ -114,4 +114,127 @@
 .header {
   display: flex;
   align-items: center;
+}
+.content_top {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  display: flex;
+}
+.item_content_top {
+  margin-left: 30px;
+  padding-top: 40px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 25px;
+  background: #fff;
+  box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
+}
+.content_top_title {
+  padding-top: 25px;
+  color: #000;
+  font-family: Gilroy-Bold;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.content_text_top {
+  padding-top: 17px;
+  color: #666;
+  font-family: Gilroy-Regular;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 22.5px */
+}
+.content_text_top_more {
+  padding-top: 25px;
+  border: none;
+  background: none;
+
+}
+.text_top_more{
+  color: #000;
+  font-family: Gilroy-Bold;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 16.5px */
+}
+.content_bottom {
+  padding-top: 92px;
+  padding-top: 100px;
+}
+.title_content_bottom {
+  color: #000;
+  font-family: Gilroy-Bold;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+}
+.text_content_bottom {
+  margin-top: 19px;
+  color: #666;
+  text-align: center;
+  font-family: Gilroy-Regular;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 24px */
+}
+.item_bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.item_content_bottom {
+  background: #fff;
+  box-shadow: 15px 25px 60px -5px rgba(0, 0, 0, 0.1);
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-top: 15px;
+  margin-top: 54px;
+  text-align: center;
+}
+.content_bottom_img {
+  height: 300px;
+}
+.content_bottom_title {
+  color: #000;
+  font-family: Gilroy-Bold;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.content_bottom_text {
+  margin-top: 22px;
+  margin-bottom: 39px;
+  color: #aaa;
+  text-align: center;
+  font-family: Gilroy-Regular;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 22.5px */
+}
+.content_bottom_button {
+  width: 150px;
+  height: 50px;
+  flex-shrink: 0;
+  border-radius: 50px;
+  border: 0;
+  background: #f25822;
+}
+.text_content_bottom {
+  color: #fff;
+  text-align: center;
+  font-family: Gilroy-Bold;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 19.5px */
 }
