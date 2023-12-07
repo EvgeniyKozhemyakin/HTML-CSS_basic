@@ -1,0 +1,221 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+.center {
+  margin: 0 auto;
+  padding-left: calc(50% - 570px);
+  padding-right: calc(50% - 570px);
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #222;
+}
+.header_left {
+  display: flex;
+  align-content: center;
+  align-items: center;
+}
+.header_left_img {
+  margin-top: 18px;
+  margin-bottom: 19px;
+}
+.header_left_button {
+  background-color: #222;
+  border: 0;
+  margin-left: 41px;
+  margin-top: 28.21px;
+  margin-bottom: 20px;
+}
+.header_right_button {
+  background-color: #222;
+  border: 0;
+  margin-top: 26px;
+  margin-bottom: 20px;
+}
+.top {
+  background-color: #f1e4e6;
+  display: flex;
+  justify-content: center;
+}
+.top_right {
+  display: flex;
+  align-items: center;
+  padding-right: 331px;
+  margin-left: 42px;
+}
+.top_left_img {
+  margin-bottom: -4px;
+}
+.top_title {
+  margin-left: 16px;
+  color: #222;
+  font-family: Lato;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 1;
+}
+
+.top_title_oflux {
+  color: #222;
+  font-family: Lato;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+}
+.top_title_fash {
+  color: #f16d7f;
+  font-family: Lato;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+}
+.content {
+  padding-top: 65px;
+}
+.top_content {
+  display: grid;
+  grid-template-columns: repeat(3, 360px);
+  gap: 29px;
+}
+
+.top_content_item_1 {
+  background: url(/lesson2/lesson11/img/img_backgroud_1.svg);
+  background-repeat: no-repeat;
+  height: 260px;
+}
+.top_content_item_2 {
+  background: url(/lesson2/lesson11/img/img_backgroud_2.svg);
+  background-repeat: no-repeat;
+}
+.top_content_item_3 {
+  background: url(/lesson2/lesson11/img/img_backgroud_3.svg);
+
+  background-repeat: no-repeat;
+}
+.top_content_item_4 {
+  background-image: url(/lesson2/lesson11/img/img_backgroud_4.svg);
+  background-repeat: no-repeat;
+}
+
+.top_content_item_4 {
+  height: 180px;
+  grid-column: 1 / 4;
+}
+.top_content_text {
+  color: #702424;
+  text-align: center;
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+  margin-top: 103px;
+  
+}
+.top_content_text_4 {
+  margin-top: 65px;
+ 
+  text-align: center;
+}
+.top_content_text_red {
+  color: #f16d7f;
+  font-family: Lato;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.main_content {
+  padding-top: 96px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main_content_title {
+  color: #222;
+  font-family: Lato;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 6px;
+  text-align: center;
+}
+.main_content_text {
+  color: #9f9f9f;
+  font-family: Lato;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+}
+.main_item {
+  margin-top: 45px;
+  display: grid;
+  grid-template-columns: repeat(3, 360px);
+  gap: 30px;
+}
+
+.main_content_item_description {
+  display: flex;
+  margin-top: -4px;
+  padding: 24px 16px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 16px;
+  background-color: #f8f8f8;
+}
+.main_content_item_img_pink {
+  padding-top: 9px;
+  padding-left: 108px;
+  padding-bottom: 11px;
+  background-color: hsla(6, 57%, 93%, 1);
+}
+
+.main_content_item_title {
+  color: #000;
+  font-family: Lato;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.main_content_item_text {
+  color: #5d5d5d;
+  font-family: Lato;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+.main_content_item_coast {
+  color: #f16d7f;
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.content_button {
+  margin-top: 48px;
+  margin-bottom: 60px;
+  width: 212px;
+  height: 48px;
+  flex-shrink: 0;
+  border: 1px solid rgba(255, 106, 106, 1);
+}
+.main_content_button {
+  color: #f26376;
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
