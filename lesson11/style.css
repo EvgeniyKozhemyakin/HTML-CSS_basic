@@ -322,6 +322,9 @@
     padding-left: 16px;
     padding-right: 16px;
   }
+  .top_right{
+    margin-left: 0px;
+  }
   .top_left_img {
     display: none;
   }
