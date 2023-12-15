@@ -169,7 +169,9 @@
   grid-template-columns: repeat(3, 360px);
   gap: 30px;
 }
-
+/* .main_content_item {
+  position: relative;
+} */
 .main_content_item_description {
   display: flex;
   margin-top: -4px;
@@ -187,6 +189,48 @@
   background-color: hsla(6, 57%, 93%, 1);
 }
 
+.main_content_item_imgcontainer {
+  position: relative;
+}
+.item_img_mask_hiden {
+  position: absolute;
+  top: 0;
+  display: block;
+  width: 360px;
+  height: 420px;
+  background-color: rgba(58, 56, 56);
+  opacity: 0;
+  transition: opacity .4s linear
+}
+.item_img_mask_hide_button {
+  margin-top: 188px;
+  margin-left: 111px;
+  display: block;
+  width: 139px;
+  height: 44px;
+  border: 1px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.item_img_mask_hide_button_text {
+  margin-left: 11px;
+  color: #fff;
+  font-family: Lato;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.item_img_mask_hiden:hover {
+  opacity: 0.86;
+}
+
+/* .main_content_item_img :hover{
+
+
+
+} */
 .main_content_item_title {
   color: #000;
   font-family: Lato;
@@ -220,6 +264,17 @@
   border: 1px solid rgba(255, 106, 106, 1);
   background: #fff;
 }
+.content_button:hover {
+  background: rgba(241, 109, 127, 1);
+}
+.main_content_button:hover {
+  color: #fff;
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
 .main_content_button {
   color: #f26376;
   font-family: Lato;
@@ -227,6 +282,7 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  transition: background-color 1s;
 }
 .footer {
   background-color: rgba(34, 34, 36, 1);
@@ -271,7 +327,7 @@
 }
 .footer_middle {
   display: flex;
-  justify-content: space-between
+  justify-content: space-between;
 }
 .footer_middle_left {
   margin-top: 97px;
@@ -304,7 +360,7 @@
   font-size: 24px;
   font-style: normal;
   font-weight: 700;
-  line-height: 167.2%; 
+  line-height: 167.2%;
 }
 .footer_middle_rights_text_another {
   font-size: 18px;
@@ -358,6 +414,15 @@
   height: 32px;
   background-color: #fff;
   text-align: center;
+}
+.footer_link_social:hover {
+  background-color: #f16d7f;
+}
+.footer_link_social:hover svg > path {
+  fill: white;
+}
+.footer_link_social:hover svg > g > path {
+  fill: white;
 }
 .footer_link_social:not(:last-child) {
   margin-right: 7.29px;
