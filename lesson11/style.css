@@ -436,8 +436,8 @@
   @media (max-width: 1024px) {
     .center {
       margin: 0 auto;
-      padding-left: calc(50% - 367px);
-      padding-right: calc(50% - 367px);
+      padding-left: calc(50% - 367.5px);
+      padding-right: calc(50% - 367.5px);
     }
     .header_left {
       padding-left: 15.6px;
